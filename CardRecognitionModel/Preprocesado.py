@@ -67,4 +67,4 @@ def process_files(file_list, img_out, lbl_out):
 process_files(train_files, TRAIN_IMG, TRAIN_LBL)
 process_files(val_files, VAL_IMG, VAL_LBL)
 
-print("✅ Dataset dividido y labels corregidos")
+print("Dataset dividido y labels corregidos")
