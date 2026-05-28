@@ -1,1 +1,2 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
+blackjack_dataset_clean.csv filter=lfs diff=lfs merge=lfs -text
