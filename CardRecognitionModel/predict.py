@@ -5,22 +5,20 @@ import cv2
 model = YOLO("runs/detect/cards_detector/weights/best.pt")
 
 # probar con imagen
-results = model("IMG20260524105701.jpg") #, show=True)
+results = model("IMG20260524105701.jpg")
 
 
 
+# Imprimimos resultados como una lista
 
-# Obtener imagen con anotaciones
-annotated_img = results[0].plot()
+result = results[0]  # solo una imagen
 
-# reducir tamaño (por ejemplo al 50%, porque si no se genera enorme y no se puede reducir el tamaño)
-scale = 0.3
-resized = cv2.resize(annotated_img, None, fx=scale, fy=scale)
+boxes = result.boxes
 
-# mostrar
-cv2.imshow("Resultado", resized)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+classes = boxes.cls.tolist()      # Índices de clase
 
-# guardar imagen
-#cv2.imwrite("resultado.jpg", resized)
+# Convertir a nombres
+names = result.names
+predicted_cards = [names[int(c)] for c in classes] # <- LA LISTA
+
+print(predicted_cards)
