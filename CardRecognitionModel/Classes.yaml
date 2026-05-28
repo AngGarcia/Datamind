@@ -1,5 +1,6 @@
 train: Data/Data/Train
-val: Data/Data/Test
+val: Data/Data/Val
+test: Data/Data/Test
 
 nc: 13
 

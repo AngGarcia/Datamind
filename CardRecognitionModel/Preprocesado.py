@@ -6,9 +6,9 @@ INPUT_FOLDER = "Data/Labeled_augmented"
 
 OUTPUT_BASE = "Data"
 TRAIN_IMG = os.path.join(OUTPUT_BASE, "Train")
-VAL_IMG = os.path.join(OUTPUT_BASE, "Test")
+VAL_IMG = os.path.join(OUTPUT_BASE, "Val")
 TRAIN_LBL = os.path.join(OUTPUT_BASE, "Train")
-VAL_LBL = os.path.join(OUTPUT_BASE, "Test")
+VAL_LBL = os.path.join(OUTPUT_BASE, "Val")
 
 os.makedirs(TRAIN_IMG, exist_ok=True)
 os.makedirs(VAL_IMG, exist_ok=True)
@@ -22,7 +22,7 @@ class_map = {
     25: 10, 26: 11, 27: 12
 }
 
-# Divisón en train y test
+# Divisón en train y val
 
 files = [f for f in os.listdir(INPUT_FOLDER) if f.endswith(".jpg")]
 random.shuffle(files)

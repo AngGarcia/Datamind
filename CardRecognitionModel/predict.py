@@ -5,7 +5,7 @@ import cv2
 model = YOLO("runs/detect/cards_detector/weights/best.pt")
 
 # probar con imagen
-results = model("IMG20260524105701.jpg")
+results = model("Data/Data/Test/IMG20260524105701.jpg")
 
 
 
