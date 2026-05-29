@@ -1,0 +1,32 @@
+Dataset1 -> clasificación (más fácil)
+
+PERO, nosotros no queremos clasificar, queremos DETECCIÓN, para que cuando hagamos una foto
+de varias cartas, se detecten todas las cartas de la foto.
+
+Para ello usamos Dataset2 -> detección
+
+labels tiene los .txt con la carta que es (identificador) y size. El identificador es la carta que esté en esa posición en classes.txt
+
+
+YOLOv8
+- fácil de entrenar
+- rápido
+- funciona muy bien para cartas
+- ideal para tiempo real
+
+
+ORDEN:
+- Data
+- XMLtoTXT.ipynb crea la carpeta labels en data que transforma los xml en txt y crea classes.txt
+- prueba_cajas.ipynb para ver que los frames están bien alrededor de las cartas
+- cards.yaml honestly??
+- train.py entrena el modelo YOLO y crea yolov8n.pt y guarda los resultados en la carpeta runs
+- predict.py script de predicción
+
+
+
+EL MODELO AHORA: reconoce algunas clases bien (joker, ace of clubs, ace of spades), luego el modelo sí está aprendiendo
+patrones reales. Problema, tiene mucho background, el modelo dice muchas veces que no hay carta cuando sí hay
+
+Para mejorar el modelo: MÁS DATOS (100 por carta mínimo recomendable, dataset balanceado -mismo número para cada carta aprox-)
+y más épocas (epochs=100 o 150)

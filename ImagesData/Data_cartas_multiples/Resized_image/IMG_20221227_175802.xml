@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Resized_image</folder>
+	<filename>IMG_20221227_175802.jpg</filename>
+	<path>F:\Deep Learning CNN\Cards\Resized_image\IMG_20221227_175802.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>King of Hearts</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>401</xmin>
+			<ymin>147</ymin>
+			<xmax>532</xmax>
+			<ymax>326</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Jack of Clubs</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>85</xmin>
+			<ymin>319</ymin>
+			<xmax>325</xmax>
+			<ymax>518</ymax>
+		</bndbox>
+	</object>
+</annotation>

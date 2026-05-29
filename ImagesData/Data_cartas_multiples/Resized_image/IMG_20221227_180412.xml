@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Resized_image</folder>
+	<filename>IMG_20221227_180412.jpg</filename>
+	<path>F:\Deep Learning CNN\Cards\Resized_image\IMG_20221227_180412.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Jack of Hearts</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>255</xmin>
+			<ymin>342</ymin>
+			<xmax>474</xmax>
+			<ymax>576</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Ace of Spades</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>70</xmin>
+			<ymin>126</ymin>
+			<xmax>242</xmax>
+			<ymax>268</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Joker</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>234</xmin>
+			<ymin>126</ymin>
+			<xmax>409</xmax>
+			<ymax>235</ymax>
+		</bndbox>
+	</object>
+</annotation>

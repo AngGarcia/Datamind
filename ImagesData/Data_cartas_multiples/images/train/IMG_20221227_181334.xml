@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Resized_image</folder>
+	<filename>IMG_20221227_181334.jpg</filename>
+	<path>F:\Deep Learning CNN\Cards\Resized_image\IMG_20221227_181334.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Joker</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>112</xmin>
+			<ymin>251</ymin>
+			<xmax>406</xmax>
+			<ymax>505</ymax>
+		</bndbox>
+	</object>
+</annotation>

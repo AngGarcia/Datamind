@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Resized_image</folder>
+	<filename>IMG_20221227_175722.jpg</filename>
+	<path>F:\Deep Learning CNN\Cards\Resized_image\IMG_20221227_175722.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Queen of Clubs</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>42</ymin>
+			<xmax>420</xmax>
+			<ymax>501</ymax>
+		</bndbox>
+	</object>
+</annotation>

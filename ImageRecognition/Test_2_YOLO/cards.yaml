@@ -1,0 +1,23 @@
+train: Data/images/train
+val: Data/images/val
+# train and val are the IMAGE folders, not labels
+
+nc: 17 # 52 si fueran todas las cartas, pero no lo son
+names:
+  - Ace of Clubs
+  - Ace of Diamonds
+  - Ace of Hearts
+  - Ace of Spades
+  - Jack of Clubs
+  - Jack of Diamonds
+  - Jack of Hearts
+  - Jack of Spades
+  - Joker
+  - King of Clubs
+  - King of Diamonds
+  - King of Hearts
+  - King of Spades
+  - Queen of Clubs
+  - Queen of Diamonds
+  - Queen of Hearts
+  - Queen of Spades

@@ -1,0 +1,26 @@
+https://www.kaggle.com/datasets/singole/playing-cards-dataset-images-only-face-cards
+
+Fotos de cartas (más de una carta en las fotos)
+Todas son de poker
+
+
+Etiquetación: Pascal VOC (formato clásico de detección)
+
+Y contiene:
+
+📦 Bounding boxes (xmin, ymin, xmax, ymax)
+🏷️ Clase de cada carta (Ace of Diamonds, etc.)
+🖼️ Varias cartas por imagen
+
+🔥 dataset listo para entrenar detección (YOLO, Faster R-CNN, etc.)
+
+
+YOLO NO usa XML, usa .txt con este formato:
+
+<class_id> <x_center> <y_center> <width> <height>
+(normalizado entre 0 y 1)
+
+
+- CardsRaw tiene las fotos raw
+- images tiene las fotos .jpg y el .xml clasificando cada carta (perfecto para detección YOLO)
+- Resized_image tiene las fotos anteriores recortadas para tener una sola carta en cada foto (perfecto para clasificación CNN)
