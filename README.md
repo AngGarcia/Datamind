@@ -15,10 +15,18 @@ El *notebook* de preprocesado llamado **[dataset_cleaning.ipynb](BlackjackModel/
 ## 3. Resultado final
 Finalmente, combinamos los dos modelos en el *notebook* **[combined_model.ipynb](FinalModel/combined_model.ipynb)** y los implementamos mediante una interfaz de Gradio. Esta interfaz tiene un input de tipo *Image* al que se le debe pasar la imagen completa del tablero, preferiblemente con las cartas del crupier en la parte superior y las del jugador en la inferior de la siguiente manera: 
 
-<img width="922" height="305" alt="image" src="./FinalModel/Examples/3b.png" />
+<img height="305" alt="image" src="./FinalModel/Examples/3b.png" />
 
 Una vez introducida la imagen, se divide a la mitad automáticamente y se ejecuta el modelo de Detección de Cartas para la parte superior y para la parte inferior. Las cartas detectadas serán las que se introduzcan al modelo de Blackjack y puesto que al estudiar el modelo descubrimos que hay ciertas variables, como el número de cartas restantes, el *run_count* o el *true_count* no tienen apenas impacto en la decisión de la acción, nos centramos en las variables que cuentan, el valor total de las cartas del jugador y la carta del crupier. Creamos un dataset con esta información y lo introducimos al modelo para obtener la acción recomendada.
 
-<video width="922" height="400" controls>
+La interfaz final queda así:
+
+<img height="305" alt="image" src="Demo_interfaz.png" />
+
+Y se puede ver en video [aquí](Demo_jugadorBlackjack.mp4)
+
+![](Demo_jugadorBlackjack.mp4)
+
+<video height="400" controls>
   <source src="Demo_jugadorBlackjack.mp4" type="video/mp4">
 </video>
