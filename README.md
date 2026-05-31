@@ -1,6 +1,6 @@
 # Datamind
 
-Este repositorio contiene el proyecto final del equipo formado por Alejandro Pérez, Lidia Lago, Hans Muñoz y Ángela García, para el máster de Inteligencia Artificial y Analítica de la escuela MIOTI. El objetivo de este proyecto es conseguir un que a partir de una sola imagen del tablero de juego, el modelo sugiera la acción a realizar.
+Este repositorio contiene el proyecto final del equipo formado por Alejandro Pérez, Lidia Lago, Hans Muñoz y Ángela García, para el máster de Inteligencia Artificial y Analítica de la escuela MIOTI. El objetivo de este proyecto es conseguir un modelo que, a partir de una sola imagen del tablero de juego, sugiera la acción a realizar.
 
 Para llevar esto a cabo necesitaremos dos modelos: uno de reconocimiento de imágenes y otro de decisión de la acción a realizar.
 
