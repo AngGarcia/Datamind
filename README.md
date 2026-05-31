@@ -5,7 +5,7 @@ Este repositorio contiene el proyecto final del equipo formado por Alejandro Pé
 Para llevar esto a cabo necesitaremos dos modelos: uno de reconocimiento de imágenes y otro de decisión de la acción a realizar.
 
 ## 1. Modelo de Reconocimiento de Cartas
-El modelo y desarrollo de este se encuentra en la carpeta [CardRecognitionModel](CardRecognitionModel). Esta contiene los scripts de entrenamiento y validación, mientras que el modelo en sí se encuentra [aquí](CardRecognitionModel/runs/detect/cards_detector/weights) y es en concreto el llamado **[best.pt](CardRecognitionModel/runs/detect/cards_detector/weights/best.pt)**. Por desgracia, no fuimos capaces de subir los datos de entrenamiento por su gran magnitud, pese a que lo intentamos usando LFS.
+El modelo y desarrollo de este se encuentran en la carpeta [CardRecognitionModel](CardRecognitionModel). Esta contiene los scripts de entrenamiento y validación, mientras que el modelo en sí se encuentra [aquí](CardRecognitionModel/runs/detect/cards_detector/weights) y es en concreto el llamado **[best.pt](CardRecognitionModel/runs/detect/cards_detector/weights/best.pt)**. Por desgracia, no fuimos capaces de subir los datos de entrenamiento por su gran magnitud, pese a que lo intentamos usando LFS.
 
 ## 2. Modelo de Blackjack
 Los *notebooks* de preprocesado y creación del modelo se encuentran en la carpeta [BlackjackModel](BlackjackModel), mientras que los datos del modelo, incluyendo el dataset original de Kaggle y los datasets de entrenamiento (y test) y validación se encuentran en la carpeta [BlackjackData](BlackjackData).
