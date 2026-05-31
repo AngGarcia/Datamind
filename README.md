@@ -10,7 +10,7 @@ El modelo y desarrollo de este se encuentran en la carpeta [CardRecognitionModel
 ## 2. Modelo de Blackjack
 Los *notebooks* de preprocesado y creación del modelo se encuentran en la carpeta [BlackjackModel](BlackjackModel), mientras que los datos del modelo, incluyendo el dataset original de Kaggle y los datasets de entrenamiento (y test) y validación se encuentran en la carpeta [BlackjackData](BlackjackData).
 
-El *notebook* de preprocesado llamado **[dataset_cleaning.ipynb](BlackjackModel/dataset_cleaning.ipynb)** contiene descripciones de los pasos llevados a cabo para crear los datasets necesarios. En cuanto a modelos, creamos dos, uno con más datos que el otro, pero las diferencias de rendimiento eran despreciables. Estos modelos se encuentran en la carpeta [BlackjackModel](BlackjackModel/Models).
+El *notebook* de preprocesado, llamado **[dataset_cleaning.ipynb](BlackjackModel/dataset_cleaning.ipynb)**, contiene descripciones de los pasos llevados a cabo para crear los datasets necesarios. En cuanto a modelos, creamos dos, uno con más datos que el otro, pero las diferencias de rendimiento eran despreciables. Estos modelos se encuentran en la carpeta [BlackjackModel](BlackjackModel/Models).
 
 ## 3. Resultado final
 Finalmente, combinamos los dos modelos en el *notebook* **[combined_model.ipynb](FinalModel/combined_model.ipynb)** y los implementamos mediante una interfaz de Gradio. Esta interfaz tiene un input de tipo *Image* al que se le debe pasar la imagen completa del tablero, preferiblemente con las cartas del crupier en la parte superior y las del jugador en la inferior de la siguiente manera: 
