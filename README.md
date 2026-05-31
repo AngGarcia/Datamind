@@ -24,5 +24,7 @@ La interfaz final queda así:
 <img height="305" alt="image" src="Demo_interfaz.png" />
 
 El vídeo se puede:
+
 Ver [aquí](https://drive.google.com/file/d/1_T1H5BHJsGRH-z9DC_4R74A_9En3mn2l/view?usp=drive_link).
+
 O descargar [aquí](Demo_jugadorBlackjack.mp4).
